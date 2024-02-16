@@ -1,0 +1,77 @@
+/* User Profile Page Styles */
+.user-dashboard {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.user-dashboard h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.profile-info,
+.resume-upload,
+.saved-jobs,
+.applied-jobs {
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.profile-info h3,
+.resume-upload h3,
+.saved-jobs h3,
+.applied-jobs h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#profile-form,
+#resume-form {
+    margin-bottom: 20px;
+}
+
+#profile-form label,
+#resume-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#profile-form input[type="text"],
+#profile-form input[type="email"],
+#resume-form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#profile-form button,
+#resume-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#profile-form button:hover,
+#resume-form button:hover {
+    background-color: #0056b3;
+}
+
+#saved-jobs-list,
+#applied-jobs-list {
+    list-style-type: none;
+}
+
+#saved-jobs-list li,
+#applied-jobs-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+}

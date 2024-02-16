@@ -1,0 +1,29 @@
+/* Job Details Page Styles */
+.job-details {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.job-details h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.job-details p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.back-btn {
+    display: inline-block;
+    background-color: #6c757d;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.back-btn:hover {
+    background-color: #5a6268;
+}

@@ -1,0 +1,44 @@
+
+.signup-login {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.signup-login h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.signup-login form {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.signup-login label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.signup-login input[type="email"],
+.signup-login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.signup-login button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-login button:hover {
+    background-color: #0056b3;
+}
